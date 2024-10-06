@@ -1,8 +1,8 @@
 #include <stdio.h>
-
 // factorial 4
 // 4 * factorial(4-1)
 int factorial(int n){
+    
     if (n==0 || n==1)
     {
         return 1;
